@@ -1,0 +1,19 @@
+Source: libdisplaycore-image-binaryvector
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-image-binaryvector
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Image
+Depends: libdisplaycore-core
+Provides: BinaryVector.h
+Description: BinaryVector library
+ Create vector images using the DisplayCore primitives
+
+
+
