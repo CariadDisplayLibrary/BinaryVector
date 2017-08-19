@@ -40,8 +40,7 @@ class BinaryVector : public Image {
         BinaryVector(const uint16_t *program) : _program(program) {}
 
         void draw(DisplayCore *dc, int x, int y);
-        void draw(DisplayCore *dc, int x, int y, color_t) {}
-        void drawTransformed(DisplayCore *dc, int x, int y, int) {}
-        void drawTransformed(DisplayCore *dc, int x, int y, int, color_t) {}
+        void draw(DisplayCore __attribute__((unused)) *dc, int __attribute__((unused)) x, int __attribute__((unused)) y, color_t __attribute__((unused)) t) {}
+        void drawTransformed(DisplayCore __attribute__((unused)) *dc, int __attribute__((unused)) x, int __attribute__((unused)) y, int __attribute__((unused)) transform, color_t __attribute__((unused)) t) {}
 };
 

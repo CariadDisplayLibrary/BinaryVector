@@ -1,10 +1,10 @@
 #include <BinaryVector.h>
 
-void BinaryVector::draw(DisplayCore *dc, int x, int y) {
+void BinaryVector::draw(DisplayCore *dc, int __attribute__((unused)) x, int __attribute__((unused)) y) {
     const uint16_t *pc = _program;
     while (*pc != END_PROG) {
         int x0, y0, x1, y1, x2, y2, x3, y3;
-        color_t c0, c1, c2;
+        color_t c0, c1;
 
         uint16_t command = *pc++;
 
