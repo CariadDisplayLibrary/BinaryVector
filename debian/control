@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Image
 Depends: libdisplaycore-core
 Provides: BinaryVector.h
-Description: BinaryVector library
+Description: BinaryVector
  Create vector images using the DisplayCore primitives
 
 
