@@ -1,2 +1,2 @@
-BinaryVector.cpp libraries/DisplayCore/BinaryVector
-BinaryVector.h libraries/DisplayCore/BinaryVector
+src libraries/DisplayCore/BinaryVector
+library.properties libraries/DisplayCore/BinaryVector
