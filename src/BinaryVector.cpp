@@ -1,6 +1,6 @@
 #include <BinaryVector.h>
 
-void BinaryVector::draw(DisplayCore *dc, int __attribute__((unused)) x, int __attribute__((unused)) y) {
+void BinaryVector::draw(Cariad *dc, int __attribute__((unused)) x, int __attribute__((unused)) y) {
     const uint16_t *pc = _program;
     while (*pc != END_PROG) {
         int x0, y0, x1, y1, x2, y2, x3, y3;

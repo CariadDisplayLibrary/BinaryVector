@@ -1,4 +1,4 @@
-#include <DisplayCore.h>
+#include <Cariad.h>
 
 /*! Binary Vector Drawing Class
  *
@@ -39,8 +39,8 @@ class BinaryVector : public Image {
 
         BinaryVector(const uint16_t *program) : _program(program) {}
 
-        void draw(DisplayCore *dc, int x, int y);
-        void draw(DisplayCore __attribute__((unused)) *dc, int __attribute__((unused)) x, int __attribute__((unused)) y, color_t __attribute__((unused)) t) {}
-        void drawTransformed(DisplayCore __attribute__((unused)) *dc, int __attribute__((unused)) x, int __attribute__((unused)) y, int __attribute__((unused)) transform, color_t __attribute__((unused)) t) {}
+        void draw(Cariad *dc, int x, int y);
+        void draw(Cariad __attribute__((unused)) *dc, int __attribute__((unused)) x, int __attribute__((unused)) y, color_t __attribute__((unused)) t) {}
+        void drawTransformed(Cariad __attribute__((unused)) *dc, int __attribute__((unused)) x, int __attribute__((unused)) y, int __attribute__((unused)) transform, color_t __attribute__((unused)) t) {}
 };
 
